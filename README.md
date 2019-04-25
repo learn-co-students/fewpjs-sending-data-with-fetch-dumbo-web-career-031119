@@ -405,7 +405,7 @@ browser to gain access to your `submitData` function in console.
 `submitData`. In order to give them access, write you solution so that
 `submitData` _returns_ the `fetch()`. This will not change the behavior of
 your `fetch()`.
-
+<!-- 
 ### Test 1 - Send Data
 
 In `submitData`, write a valid POST request to `http://localhost:3000/users`
@@ -415,7 +415,7 @@ using `fetch()`. This request should include:
 - Headers for 'Content-Type' and 'Accept' set to 'application/json'
 - A body with the name and email passed in as arguments to `submitData`. These
   should be assigned to `name` and `email` keys within an object. This object
-  should then be stringified.
+  should then be stringified. -->
 
 ### Test 2 - Handle the Response
 
